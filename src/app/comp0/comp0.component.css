@@ -1,0 +1,204 @@
+.block1{
+    text-align: center;
+   
+   }
+   .content{
+    display: inline-block;
+    height: 22vw;
+    width: 44.5vw;
+    transition: all 1s ease;
+   }
+   .img_bl{
+       display: grid;
+       position: relative;
+       overflow: hidden;
+       animation: imgleft 1s 1;
+       transition: all 2s ease;
+
+   }
+
+   @keyframes imgleft{
+    0%{
+        
+        opacity: 0;
+    }
+    10%{
+      
+        opacity: 0.2;
+    }
+    20%{
+       
+        opacity: 0.4;
+    }
+    30%{
+      
+        opacity: 0.6;
+    }
+    40%{
+    
+        opacity: 0.8;
+    }
+    50%
+    {
+        /* bottom: -50%; */
+        opacity: 0.9;
+    }
+   
+   }
+   .img_bl img{
+
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        display: inline-block;
+        
+   }
+   .meseg{
+       display: inline-block;
+       background-color: black;
+       height: 50%;
+       width: 70%;
+       position: absolute;
+       border-radius: 50px;
+       margin: 1%;
+       /* right: 0; */
+       bottom: 0;
+    /* overflow: hidden; */
+       background: rgb(7,120,111);
+       background: linear-gradient(90deg, rgba(7,120,111,1) 0%, rgba(8,102,82,1) 14%, rgba(8,97,80,1) 20%, rgba(8,90,77,1) 34%, rgba(2,5,41,1) 98%);
+       opacity: 0.6;
+       transition: all .7s ease;
+       margin-bottom: 3%;
+       margin-left: 5%;
+        animation: meseg_open 3s 1;
+   
+   }
+   @keyframes meseg_open{
+    0%{
+        opacity: 0.5;
+        height: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+   }
+   .meseg:hover{
+    opacity: .9;
+    }
+ 
+
+
+.logo{
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: left;
+    overflow: hidden;
+}
+.logo img{
+    height: 10%;
+    width: 30%;
+   
+}
+
+.btn_bl{
+    background-color: #18b0ec;
+    display: inline-block;
+    width: 35%;
+    height: 7%;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 5%;
+    cursor: pointer;
+    color: black;
+    font-style: italic;
+    transition: all .7s ease;
+    margin-left: 25%;
+}
+.btn_bl p{
+    margin: 0;
+    margin-top: 1%;
+    font-size: 1.5vw;
+    
+   
+}
+.btn_bl a{
+    color: black;
+    transition: all .5s ease;
+}
+.btn_bl:hover{
+    background-color: blue;
+    color: white;
+}
+.btn_bl:hover a{
+    color: white;
+}
+
+.title{
+    margin: 0;
+    color: white;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+    
+}
+
+.title h1{
+    margin: 0;
+    margin-top: -1%;
+    font-size: 2.5vw;
+   
+}
+.text{
+    text-align: left;
+    overflow: hidden;
+    height: 35%;
+    margin: 0;
+}
+.text p{
+    color: #18b0ec;
+    font-size: 1.5vw;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+  
+}
+
+
+.text a{
+    color: gray;
+    font-size: 1.2vw;
+    transition: all .5s ease;
+    margin-left: 10%;
+    
+}
+.text a:hover{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.box_icons{
+    margin-top: 1.5%;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 9%;
+}
+.box_icons div{
+    display: inline-block;
+    margin-left: 2%;
+}
+.box_icons img{
+    height: 2vw;
+    width: 2vw;
+    margin-left: 1%;
+    transition: all .5s ease;
+
+}
+.box_icons img:hover{
+    background-color: white;
+    border-radius: 15px;
+
+}

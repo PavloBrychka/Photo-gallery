@@ -1,0 +1,101 @@
+
+
+.title{
+    /* margin-top: 5vw; */
+    color: rgb(52, 148, 204);
+    text-align: center;
+    font-size: 3vw;
+
+}
+.title2{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+
+}
+.main_conteiner{
+    height: 0;
+    animation: title_stop 5s 1;
+    transition: all 5s ease;
+    overflow: hidden;
+}
+.main_conteiner h1{
+    animation: text 7s 1;
+}
+.main_conteiner h2{
+    animation: text 7s 1;
+}
+@keyframes title_stop{
+    0%{
+        height: 10vw;
+    }
+    50%{height: 10vw;}
+  
+    90%{height: 10vw;}
+
+}
+
+@keyframes text{
+
+    0%{
+        color: #000;
+        margin-bottom: -40px;
+        opacity: 0.2;
+        overflow: hidden;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+        opacity: 0.5;
+        overflow: hidden;
+    }
+    60%{
+        letter-spacing: 2px;
+        margin-bottom: -40px;
+        opacity: 1;
+        overflow: hidden;
+    }
+
+
+}
+
+.btn{
+    height: 5vw;
+    width: 100vw;
+    position: relative;
+    /* background-color: black; */
+}
+.btn_left{
+    text-align: center;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+    border-radius: 15px;
+    width: 20%;
+    background-color: rgb(52, 148, 204);
+    position: absolute;
+    cursor: pointer;
+    /* font-size: 3vw; */
+}
+.btn_right{
+    text-align: center;
+    right: 0;
+    display: inline-block;
+    height: 100%;
+    border-radius: 15px;
+    width: 20%;
+    background-color: rgb(52, 148, 204);
+    position: absolute;
+    cursor: pointer;
+}
+.btn_left h1{
+    margin: 0;
+    margin-top: 2%;
+    color: white;
+}
+
+.btn_right h1{
+    margin: 0;
+    margin-top: 2%;
+    color: white;
+}
